@@ -1,24 +1,28 @@
-import logo from './logo.svg';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/js/bootstrap.bundle';
+import { Route, BrowserRouter as Router, Routes } from "react-router-dom";
 import './App.css';
+import AddUser from "./components/Register";
+import LoginUser from "./components/Login";
+import Header from './components/Header';
+import AboutUs from './components/pages/AboutUs';
+import PageNotFound from './components/pages/PageNotFound';
 
 function App() {
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <div className="container">
+        <Header brand="Hopeful Haven Animals" />
+        <Routes>
+          <Route path='/' element={<LoginUser />} />
+          <Route path="/login" element={<LoginUser />} />
+          <Route path="/register" element={<AddUser />} />
+          <Route path="/about" element={<AboutUs />} />
+          <Route path='*' element={<PageNotFound />} />
+        </Routes>
+      </div>
+    </Router>
   );
 }
 
