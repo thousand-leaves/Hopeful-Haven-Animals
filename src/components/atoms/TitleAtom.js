@@ -1,15 +1,20 @@
-import React from 'react'
-import PropTypes from 'prop-types'
-import { Link } from 'react-router-dom'
+import React from "react";
+import PropTypes from "prop-types";
 
-const TitleAtom = ({title}) => (
-    <Link className="navbar-brand" to="/">
-        {title}
-    </Link>
-  )
+const Title = ({ title }) => {
+  return (
+    <a className="navbar-brand" href="/">
+      {title}
+    </a>
+  );
+};
 
-TitleAtom.propTypes = {
-    title: PropTypes.string.isRequired
-}
+Title.defaultProps = {
+  title: "Hopeful Haven Animals",
+};
 
-export default TitleAtom
+Title.propTypes = {
+  title: PropTypes.string.isRequired,
+};
+
+export default Title;

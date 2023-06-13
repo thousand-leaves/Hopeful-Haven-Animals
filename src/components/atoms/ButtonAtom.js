@@ -1,6 +1,7 @@
-import React from 'react';
+import React from "react";
 
-const ButtonAtom = () => (
+const button = () => {
+  return (
     <button
       className="navbar-toggler"
       type="button"
@@ -13,5 +14,6 @@ const ButtonAtom = () => (
       <span className="navbar-toggler-icon"></span>
     </button>
   );
+};
 
-export default ButtonAtom;
+export default button;
