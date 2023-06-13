@@ -68,7 +68,7 @@ class Register extends Component {
                             value={name}
                             onChange={this.onHandleChange}
                             id="name"
-                            placeholder="Please insert full name."
+                            placeholder="Please enter full name."
                             error={errors.name} />
 
                         <InputMolecule
@@ -78,7 +78,7 @@ class Register extends Component {
                             name="email"
                             value={email}
                             onChange={this.onHandleChange}
-                            placeholder="Please insert valid email address."
+                            placeholder="Please enter a valid email address."
                             id="email"
                             error={errors.email}
                         />
@@ -90,7 +90,7 @@ class Register extends Component {
                             name="password"
                             value={password}
                             onChange={this.onHandleChange}
-                            placeholder="Please insert valid password."
+                            placeholder="Please choose a password."
                             id="password"
                             error={errors.password}
                         />  
@@ -102,7 +102,7 @@ class Register extends Component {
                             name="phone"
                             value={phone}
                             onChange={this.onHandleChange}
-                            placeholder="Please insert your phone number."
+                            placeholder="Please enter your phone number."
                             id="phone"
                             error={errors.phone}
                         />

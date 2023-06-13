@@ -54,7 +54,7 @@ class Login extends Component {
                             name="email"
                             value={email}
                             onChange={this.onHandleChange}
-                            placeholder="Please insert valid email address."
+                            placeholder="Please enter a valid email address."
                             id="email"
                             error={errors.email}
                         />
@@ -66,7 +66,7 @@ class Login extends Component {
                             name="password"
                             value={password}
                             onChange={this.onHandleChange}
-                            placeholder="Please insert valid password."
+                            placeholder="Please enter your password."
                             id="password"
                             error={errors.password}
                         />  
