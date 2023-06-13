@@ -7,6 +7,7 @@ import LoginUser from "./components/Login";
 import Header from './components/Header';
 import AboutUs from './components/pages/AboutUs';
 import PageNotFound from './components/pages/PageNotFound';
+import Home from "./components/Home";
 
 function App() {
 
@@ -16,6 +17,7 @@ function App() {
         <Header brand="Hopeful Haven Animals" />
         <Routes>
           <Route path='/' element={<LoginUser />} />
+          <Route path="/home" element={<Home />} />
           <Route path="/login" element={<LoginUser />} />
           <Route path="/register" element={<AddUser />} />
           <Route path="/about" element={<AboutUs />} />

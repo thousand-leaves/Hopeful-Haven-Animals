@@ -1,20 +1,21 @@
 import React from "react";
 import PropTypes from "prop-types";
+import { Link } from "react-router-dom";
 
 const Icon = ({ IconImage, IconTitle }) => {
   return (
     <li className="nav-item">
-      <a className="nav-link" aria-current="page" href="/">
+      <Link className="nav-link" to="/">
         <i className={IconImage}></i>
         {IconTitle}
-      </a>
+      </Link>
     </li>
   );
 };
 
 Icon.defaultProps = {
-  IconImage: "Unkown",
-  IconTitle: "Unkown",
+  IconImage: "Unknown",
+  IconTitle: "Unknown",
 };
 
 Icon.propTypes = {

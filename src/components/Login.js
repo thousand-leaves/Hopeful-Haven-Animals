@@ -1,83 +1,97 @@
-import React, { Component } from "react";
+import React, { useState } from "react";
+import { useNavigate } from "react-router-dom";
 import InputMolecule from "./molecules/InputMolecule";
 
-class Login extends Component {
-  state = {
-    email: "",
-    password: "",
-    errors: {},
+const Login = () => {
+  const navigate = useNavigate();
+  const [username, setUsername] = useState("");
+  const [password, setPassword] = useState("");
+  const [message, setMessage] = useState("");
+  const [errors, setErrors] = useState({});
+
+  const handleUsernameChange = (e) => {
+    setUsername(e.target.value);
   };
 
-  onHandleChange = (e) => {
-    this.setState({ [e.target.name]: e.target.value });
+  const handlePasswordChange = (e) => {
+    setPassword(e.target.value);
   };
 
-  onHandleSubmit = (e) => {
+  const handleSubmit = (e) => {
     e.preventDefault();
 
-    const { email, password } = this.state;
-
-    if (email === "") {
-      this.setState({ errors: { email: "Email is required." } });
+    if (username === "") {
+      setErrors({ username: "Username is required." });
       return;
     }
 
     if (password === "") {
-      this.setState({ errors: { email: "Password is required." } });
+      setErrors({ password: "Password is required." });
       return;
     }
 
-    const loginUser = {
-      email: email,
+    const data = {
+      username: username,
       password: password,
     };
 
-    console.log(loginUser);
-
-    this.setState({ email: "", password: "", errors: {} });
+    fetch("http://localhost:8080/api/v1/users/login", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify(data),
+    })
+      .then((response) => response.text())
+      .then((result) => {
+        if (result === "Login successful!") {
+          navigate("/home");
+        } else {
+          setMessage("Invalid username or password.");
+        }
+      })
+      .catch((error) => {
+        console.error("Error:", error);
+      });
   };
 
-  render() {
-    const { email, password, errors } = this.state;
-    return (
-      <div className="card">
-        <div className="card-header">User Login Form</div>
-        <div className="card-body">
-          <form onSubmit={this.onHandleSubmit}>
-            <InputMolecule
-              labelId="email"
-              labelName="Email"
-              type="email"
-              name="email"
-              value={email}
-              onChange={this.onHandleChange}
-              placeholder="Please enter a valid email address."
-              id="email"
-              error={errors.email}
-            />
+  return (
+    <div className="card">
+      <div className="card-header">User Login Form</div>
+      <div className="card-body">
+        {message && <p>{message}</p>}
+        <form onSubmit={handleSubmit}>
+          <InputMolecule
+            labelId="username"
+            labelName="Username"
+            type="text"
+            name="username"
+            value={username}
+            onChange={handleUsernameChange}
+            placeholder="Please enter your username."
+            id="username"
+            error={errors.username}
+          />
 
-            <InputMolecule
-              labelId="password"
-              labelName="Password"
-              type="password"
-              name="password"
-              value={password}
-              onChange={this.onHandleChange}
-              placeholder="Please enter your password."
-              id="password"
-              error={errors.password}
-            />
+          <InputMolecule
+            labelId="password"
+            labelName="Password"
+            type="password"
+            name="password"
+            value={password}
+            onChange={handlePasswordChange}
+            placeholder="Please enter your password."
+            id="password"
+            error={errors.password}
+          />
 
-            <input
-              type="submit"
-              value="login"
-              className="btn btn-outline-success float-end"
-            />
-          </form>
-        </div>
+          <button type="submit" className="btn btn-outline-success float-end">
+            Login
+          </button>
+        </form>
       </div>
-    );
-  }
-}
+    </div>
+  );
+};
 
 export default Login;

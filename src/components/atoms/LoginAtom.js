@@ -13,8 +13,8 @@ const LoginAtom = ({ LoginImage, LoginTitle }) => {
 };
 
 LoginAtom.defaultProps = {
-  LoginImage: "Unkown",
-  LoginTitle: "Unkown",
+  LoginImage: "Unknown",
+  LoginTitle: "Unknown",
 };
 
 LoginAtom.propTypes = {

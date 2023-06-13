@@ -5,7 +5,7 @@ import NavbarMolecule from "./molecules/NavBarMolecule";
 import SearchFormMolecule from "./molecules/SearchFormMolecule";
 import LoginMolecule from "./molecules/LoginMolecule";
 
-const Header = ({}) => {
+const Header = () => {
   return (
     <nav className="navbar navbar-expand-lg">
       <div className="container-fluid">
