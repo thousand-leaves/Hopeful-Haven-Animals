@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
-import InputMolecule from "./molecules/InputMolecule";
+import InputMolecule from "../molecules/InputMolecule";
 
 const Login = () => {
   const navigate = useNavigate();

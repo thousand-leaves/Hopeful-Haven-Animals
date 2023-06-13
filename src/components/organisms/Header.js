@@ -1,9 +1,9 @@
 import React from "react";
-import ButtonAtom from "./atoms/ButtonAtom";
-import NavbarMolecule from "./molecules/NavBarMolecule";
-import SearchFormMolecule from "./molecules/SearchFormMolecule";
-import LoginMolecule from "./molecules/LoginMolecule";
-import LogoAtom from "./atoms/LogoAtom";
+import ButtonAtom from "../atoms/ButtonAtom";
+import NavbarMolecule from "../molecules/NavBarMolecule";
+import SearchFormMolecule from "../molecules/SearchFormMolecule";
+import LoginMolecule from "../molecules/LoginMolecule";
+import LogoAtom from "../atoms/LogoAtom";
 
 const Header = () => {
   return (

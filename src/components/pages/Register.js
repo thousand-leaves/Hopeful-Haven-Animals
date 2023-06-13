@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import InputMolecule from "./molecules/InputMolecule"
+import InputMolecule from "../molecules/InputMolecule"
 
 class Register extends Component {
     state = {

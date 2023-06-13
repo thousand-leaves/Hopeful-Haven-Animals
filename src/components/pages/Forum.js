@@ -1,6 +1,6 @@
 import React from "react";
 
-const Forum = ({}) => {
+const Forum = () => {
   return (
     <body>
       <div className="Forum">

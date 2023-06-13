@@ -1,6 +1,6 @@
 import React from "react";
 
-const Donate = ({}) => {
+const Donate = () => {
   return (
     <body>
       <div className="Donate">
