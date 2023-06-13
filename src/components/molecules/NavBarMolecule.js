@@ -9,15 +9,15 @@ const NavbarMolecule = () => {
         <IconAtom IconImage="fa fa-home mx-1" IconTitle="Home" />
       </NavLink>
 
-      <NavLink className="nav-link" to="/login">
+      <NavLink className="nav-link" to="/reports">
         <IconAtom IconImage="fa fa-file mx-1" IconTitle="Reports" />
       </NavLink>
 
-      <NavLink className="nav-link" to="/register">
+      <NavLink className="nav-link" to="/donate">
         <IconAtom IconImage="fa fa-heart mx-1" IconTitle="Donate" />
       </NavLink>
 
-      <NavLink className="nav-link" to="/login">
+      <NavLink className="nav-link" to="/forums">
         <IconAtom IconImage="fa fa-comment mx-1" IconTitle="Forum" />
       </NavLink>
     </ul>
