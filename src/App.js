@@ -1,25 +1,29 @@
-import 'bootstrap/dist/css/bootstrap.min.css';
-import 'bootstrap/dist/js/bootstrap.bundle';
-import { Route, BrowserRouter as Router, Routes } from "react-router-dom";
-import './App.css';
-import AddUser from "./components/Register";
+import "bootstrap/dist/css/bootstrap.css";
+import "bootstrap/dist/js/bootstrap.bundle";
+import "./App.css";
+import Header from "./components/Header";
+import Home from "./components/pages/Home";
+import Reports from "./components/pages/Reports";
+import Donate from "./components/pages/Donate";
+import Forum from "./components/pages/Forum";
 import LoginUser from "./components/Login";
-import Header from './components/Header';
-import AboutUs from './components/pages/AboutUs';
-import PageNotFound from './components/pages/PageNotFound';
+import PageNotFound from "./components/pages/PageNotFound";
+import AddUser from "./components/Register";
+import AboutUs from "./components/pages/AboutUs";
+import { Route, BrowserRouter as Router, Routes } from "react-router-dom";
 
 function App() {
-
   return (
     <Router>
       <div className="container">
-        <Header brand="Hopeful Haven Animals" />
+        <Header />
         <Routes>
-          <Route path='/' element={<LoginUser />} />
+          <Route path="/" element={<Home />} />
+          <Route path="/reports" element={<Reports />} />
+          <Route path="/donate" element={<Donate />} />
+          <Route path="/forums" element={<Forum />} />
           <Route path="/login" element={<LoginUser />} />
-          <Route path="/register" element={<AddUser />} />
-          <Route path="/about" element={<AboutUs />} />
-          <Route path='*' element={<PageNotFound />} />
+          <Route path="*" element={<PageNotFound />} />
         </Routes>
       </div>
     </Router>
