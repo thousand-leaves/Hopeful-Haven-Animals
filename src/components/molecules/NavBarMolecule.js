@@ -5,7 +5,7 @@ import { NavLink } from "react-router-dom";
 const NavbarMolecule = () => {
   return (
     <ul className="navbar-nav me-auto mb-2 mb-lg-0">
-      <NavLink className="nav-link" to="/">
+      <NavLink className="nav-link" to="/home">
         <IconAtom IconImage="fa fa-home mx-1" IconTitle="Home" />
       </NavLink>
 

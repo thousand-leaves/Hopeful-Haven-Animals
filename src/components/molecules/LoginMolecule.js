@@ -1,6 +1,6 @@
 import React from "react";
 import LoginAtom from "../atoms/LoginAtom";
-import { Link, NavLink } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 const LoginMolecule = () => {
   return (

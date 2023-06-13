@@ -11,6 +11,8 @@ import PageNotFound from "./components/pages/PageNotFound";
 import AddUser from "./components/Register";
 import AboutUs from "./components/pages/AboutUs";
 import { Route, BrowserRouter as Router, Routes } from "react-router-dom";
+import AboutUs from './components/pages/AboutUs';
+import Home from "./components/Home";
 
 function App() {
   return (
@@ -22,6 +24,7 @@ function App() {
           <Route path="/reports" element={<Reports />} />
           <Route path="/donate" element={<Donate />} />
           <Route path="/forums" element={<Forum />} />
+          <Route path="/home" element={<Home />} />
           <Route path="/login" element={<LoginUser />} />
           <Route path="*" element={<PageNotFound />} />
         </Routes>
