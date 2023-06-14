@@ -8,6 +8,7 @@ import Donate from "./components/pages/Donate";
 import Forum from "./components/pages/Forum";
 import LoginUser from "./components/pages/Login";
 import PageNotFound from "./components/pages/PageNotFound";
+import DonateForm from "./components/pages/DonationFormAttempt";
 import { Route, BrowserRouter as Router, Routes } from "react-router-dom";
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/reports" element={<Reports />} />
           <Route path="/donate" element={<Donate />} />
+          <Route path="/donateform" element={<DonateForm />} />
           <Route path="/forums" element={<Forum />} />
           <Route path="/home" element={<Home />} />
           <Route path="/login" element={<LoginUser />} />
