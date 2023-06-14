@@ -1,14 +1,13 @@
 import React from "react";
 import PropTypes from "prop-types";
-import { Link } from "react-router-dom";
 
 const Icon = ({ IconImage, IconTitle }) => {
   return (
     <li className="nav-item">
-      <Link className="nav-link" to="/">
+      <a className="nav-link" to="/">
         <i className={IconImage}></i>
         {IconTitle}
-      </Link>
+      </a>
     </li>
   );
 };
