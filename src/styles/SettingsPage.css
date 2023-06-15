@@ -1,0 +1,33 @@
+.white-box {
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  border: 1px solid black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.white-box h3 {
+  text-decoration: none;
+}
+
+.settings-page {
+  margin-top: 20px;
+}
+
+.payment-details .card {
+  border: 1px solid black;
+}
+
+.delete-account-actions {
+  display: flex;
+  align-items: center;
+}
+
+.delete-account-checkbox {
+  margin-right: 10px;
+}
+
