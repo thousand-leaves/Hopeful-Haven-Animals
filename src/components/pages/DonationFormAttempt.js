@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import InputMolecule from "../molecules/InputMolecule";
 
-class Register extends Component {
+class DonationFormAttempt extends Component {
   state = {
     name: "",
     message: "",
@@ -43,7 +43,7 @@ class Register extends Component {
     const { name, message, donation, errors } = this.state;
     return (
       <div className="card">
-        <div className="card-header">User Registration Form</div>
+        <div className="card-header">User Donation Form</div>
         <div className="card-body">
           <form onSubmit={this.onHandleSubmit}>
             <InputMolecule
@@ -95,4 +95,4 @@ class Register extends Component {
     );
   }
 }
-export default Register;
+export default DonationFormAttempt;
