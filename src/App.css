@@ -26,6 +26,10 @@ nav{
   background-color: forestgreen;
 }
 
+.form-control2 {
+  width: 80%;
+}
+
 /* Footer */
 footer{
   text-align: center;
@@ -63,6 +67,7 @@ footer{
   border-style: solid;
   border-width: 1px;
   border-radius: 10px;
+  margin-top: 1px;
   margin-left: 1%;
   padding-left: 10px;
   width: 98%;
@@ -182,6 +187,22 @@ footer{
   padding-left: 10px;
 }
 
+.ForumHeader{
+  font-size: x-large;
+}
+
+/* FAQ Forum Page */
+.FaqForum{
+  float: left;
+  width: 73%;
+  background-color: white;
+  margin-top: 1%;
+  height: 770px;
+  border-style: solid;
+  border-color: black;
+  border-width: 1px;
+  border-radius: 5px;
+}
 
 /* Donation Sidebar */
 .Donations{
@@ -201,6 +222,21 @@ footer{
   padding-left: 10px;
 }
 
+.nav-link2{
+  margin-top: 25px;
+  font-size: xx-large;
+  text-align: center;
+  color: black;
+  text-decoration: underline;
+  background-color: white;
+  border-style: solid;
+  border-color: black;
+  border-width: 1px;
+  border-radius: 5px;
+  margin-left: 330px;
+  width: 35%;
+}
+
 /* Multi-Page Use */
 .text-secondary{
   margin-top: 2px;
@@ -216,14 +252,17 @@ footer{
 /* Line tag */
 hr{
   height: 3px;
+  margin-top: 1px;
+  margin-bottom: 1px;
 }
 
 /* Used for any Main Headings */
-h1{
+.display{
   color: black;
   text-decoration: underline;
   font-size: xx-large;
   margin-left: 1%;
+  margin-bottom: 1px;
 }
 
 /* Used for Secondary Headings */

@@ -5,33 +5,41 @@ const Forum = () => {
     <body>
       <div className="Forum">
         <p className="FoPlaceholderText">
-          <h3>FAQ Forum</h3>
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempore
-          tempora porro recusandae architecto perferendis. Perspiciatis impedit
-          est dignissimos eius ipsam asperiores possimus voluptate molestias
-          vero illo, fugiat quisquam excepturi ducimus?
+          <a className="ForumHeader" href="/faqforum">
+            FAQ Forum
+          </a>
+          <br></br>
+          This forum relies on the participation of its members to thrive. By
+          engaging in thoughtful discussions, sharing knowledge, and helping
+          others, we can collectively create a supportive and informative
+          community.
+          <br></br>
+          Thank you for visiting our FAQ Forum page, and we hope you find the
+          answers you're looking for!
           <hr></hr>
           <h5>Comments</h5>
           <h6>User1479</h6>
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+          How do I reset my password?
+          <h6>Forum Admin</h6>
+          You will receive an email with instructions on how to create a new
+          password.
           <h6>User1479</h6>
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-          <h6>User1479</h6>
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+          Can I post external links in my forum posts?
         </p>
         <hr></hr>
         <p className="FoPlaceholderText">
-          <h3>FAQ Forum</h3>
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempore
-          tempora porro recusandae architecto perferendis. Perspiciatis impedit
-          est dignissimos eius ipsam asperiores possimus voluptate molestias
-          vero illo, fugiat quisquam excepturi ducimus?
+          <h3>Rescue Tales Forum</h3>
+          Whether you're a passionate animal advocate, a pet owner, or simply
+          interested in learning more about animal rescue, this forum is the
+          perfect place to connect with like-minded individuals who share a love
+          for our furry, feathered, and scaly friends.
           <hr></hr>
           <h5>Comments</h5>
           <h6>User1479</h6>
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+          Just wanted to give a shoutout to all the amazing volunteers and
+          organizations out there making a difference in rescue work.
           <h6>User1479</h6>
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+          Thank You! Your support is really appreciated!
         </p>
       </div>
       <div className="VisitedForums">

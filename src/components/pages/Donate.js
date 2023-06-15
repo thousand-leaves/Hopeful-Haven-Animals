@@ -34,53 +34,57 @@ const Donate = () => {
       <div className="DonateInfo">
         <p className="DonateInfoPara">
           <h3>Donation Information</h3>
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempore
-          tempora porro recusandae architecto perferendis. Perspiciatis impedit
-          est dignissimos eius ipsam asperiores possimus voluptate molestias
-          vero illo, fugiat quisquam excepturi ducimus? Sequi iusto odit
-          laboriosam praesentium, incidunt eligendi tempora recusandae
-          explicabo, dolor voluptatem repellat harum obcaecati aspernatur cum.
-          Quod sint fuga, quidem perferendis culpa alias ipsum totam vitae.
-          Adipisci, enim quaerat. Officiis dolor distinctio repellendus suscipit
-          ipsum fuga, dignissimos reiciendis omnis tempore aut explicabo
-          temporibus minima cupiditate animi esse quis fugit officia rem modi
-          quas blanditiis eius. Aperiam veniam animi dolorem. Distinctio modi
-          magni, impedit blanditiis laborum amet nihil dolorum omnis porro a
-          dolores, earum accusamus recusandae tempore nemo! Consectetur adipisci
-          quam consequatur cupiditate in soluta expedita repudiandae tempore
-          amet consequuntur! Doloremque accusantium quibusdam, dignissimos
-          fugiat in iste dicta pariatur architecto quia ratione aperiam soluta
-          assumenda voluptate nesciunt nisi obcaecati et voluptatem natus
-          corporis. Adipisci non recusandae architecto eligendi tempora
-          similique!
-        </p>
-        <p className="DonateInfoPara">
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempore
-          tempora porro recusandae architecto perferendis. Perspiciatis impedit
-          est dignissimos eius ipsam asperiores possimus voluptate molestias
-          vero illo, fugiat quisquam excepturi ducimus? Sequi iusto odit
-          laboriosam praesentium, incidunt eligendi tempora recusandae
-          explicabo, dolor voluptatem repellat harum obcaecati aspernatur cum.
-          Quod sint fuga, quidem perferendis culpa alias ipsum totam vitae.
-          Adipisci, enim quaerat. Officiis dolor distinctio repellendus suscipit
-          ipsum fuga, dignissimos reiciendis omnis tempore aut explicabo
-          temporibus minima cupiditate animi esse quis fugit officia rem modi
-          quas blanditiis eius. Aperiam veniam animi dolorem. Distinctio modi
-          magni, impedit blanditiis laborum amet nihil dolorum omnis porro a
-          dolores, earum accusamus recusandae tempore nemo! Consectetur adipisci
-          quam consequatur cupiditate in soluta expedita repudiandae tempore
-          amet consequuntur! Doloremque accusantium quibusdam, dignissimos
-          fugiat in iste dicta pariatur architecto quia ratione aperiam soluta
-          assumenda voluptate nesciunt nisi obcaecati et voluptatem natus
-          corporis. Adipisci non recusandae architecto eligendi tempora
-          similique!
+          At our animal rescue charity, we prioritize transparency and
+          accountability when it comes to the allocation of donations. We
+          understand that your contributions are crucial in helping us fulfill
+          our mission of rescuing and caring for animals in need. Here is a
+          detailed breakdown of where your donations go:
+          <br></br>
+          Animal Rescue and Rehabilitation: The majority of your donations are
+          allocated towards rescuing and rehabilitating animals in distress.
+          This includes the cost of rescuing animals from dangerous situations,
+          providing emergency medical care, sheltering and housing, feeding, and
+          overall rehabilitation efforts. These funds ensure that animals
+          receive the immediate attention they need, such as veterinary care,
+          vaccinations, and proper nutrition, to regain their health and
+          well-being.
+          <br></br>
+          Veterinary Care and Medical Expenses: A significant portion of the
+          funds is dedicated to veterinary care and medical expenses for the
+          animals in our care. This covers routine check-ups, vaccinations,
+          spaying or neutering, microchipping, dental care, surgeries, and any
+          ongoing medical treatments required for animals with chronic
+          conditions or injuries. Our goal is to ensure that every animal
+          receives high-quality medical care to recover and lead healthy lives.
+          <br></br>
+          Food, Shelter, and Daily Care: Your donations contribute to providing
+          a safe and comfortable environment for the animals under our care.
+          This includes maintaining and improving shelter facilities, purchasing
+          bedding, food, and other necessary supplies to meet the daily needs of
+          the animals. By allocating funds to these essentials, we can ensure
+          that every animal has a warm and clean place to stay, along with
+          nutritious meals to support their well-being.
+          <br></br>
+          Educational and Outreach Initiatives: Our commitment to animal welfare
+          goes beyond rescue and care. Your donations also enable us to conduct
+          educational programs and outreach initiatives to raise awareness about
+          responsible pet ownership, animal welfare, and the importance of
+          spaying/neutering. These initiatives aim to prevent future animal
+          suffering by empowering the community with knowledge and resources.
+          <br></br>
+          We understand the significance of your donations and are committed to
+          using them efficiently and effectively to make a positive impact on
+          the lives of animals in need. Our organization regularly reviews and
+          assesses the allocation of funds to ensure maximum transparency and
+          accountability. We provide detailed financial reports and updates to
+          our donors, allowing you to see firsthand how your contributions are
+          making a difference. Together, we can continue to rescue,
+          rehabilitate, and provide a better future for the animals that rely on
+          our support.
         </p>
       </div>
       <div className="DonateForm">
-        <hr></hr>
-        <h1>Donation Form</h1>
         <DonateFormMolecule />
-        <form></form>
       </div>
     </body>
   );

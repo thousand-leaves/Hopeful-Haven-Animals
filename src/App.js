@@ -6,6 +6,7 @@ import Home from "./components/pages/Home";
 import Reports from "./components/pages/Reports";
 import Donate from "./components/pages/Donate";
 import Forum from "./components/pages/Forum";
+import FaqForum from "./components/pages/FaqForum";
 import LoginUser from "./components/pages/Login";
 import PageNotFound from "./components/pages/PageNotFound";
 import DonateForm from "./components/pages/DonationFormAttempt";
@@ -22,6 +23,7 @@ function App() {
           <Route path="/donate" element={<Donate />} />
           <Route path="/donateform" element={<DonateForm />} />
           <Route path="/forums" element={<Forum />} />
+          <Route path="/faqforum" element={<FaqForum />} />
           <Route path="/home" element={<Home />} />
           <Route path="/login" element={<LoginUser />} />
           <Route path="*" element={<PageNotFound />} />
