@@ -30,7 +30,6 @@ nav{
   width: 80%;
 }
 
-/* Footer */
 footer{
   text-align: center;
   background-color: palegreen;
@@ -41,7 +40,6 @@ footer{
   margin-right: 30px;
 }
 
-/* Home Page Section */
 .LiveNews{
   float: left;
   width: 36.5%;
@@ -84,7 +82,6 @@ footer{
   background-color: white;
 }
 
-/* Reports Page */
 .Reports{
   float: left;
   width: 73%;
@@ -94,7 +91,6 @@ footer{
   border-width: 1px;
   border-radius: 5px;
   background-color: white;
-  
 }
 
 .ReportText{
@@ -110,7 +106,6 @@ footer{
   padding-left: 10px;
 }
 
-/* Donation Page */
 .DonateForm{
   float: left;
   width: 73%;
@@ -138,7 +133,6 @@ footer{
   margin-top: 1%;
 }
 
-/* Forum Page */
 .Forum{
   float: left;
   width: 36.5%;
@@ -191,7 +185,6 @@ footer{
   font-size: x-large;
 }
 
-/* FAQ Forum Page */
 .FaqForum{
   float: left;
   width: 73%;
@@ -204,7 +197,6 @@ footer{
   border-radius: 5px;
 }
 
-/* Donation Sidebar */
 .Donations{
   float: right;
   width: 25%;
@@ -237,7 +229,6 @@ footer{
   width: 35%;
 }
 
-/* Multi-Page Use */
 .text-secondary{
   margin-top: 2px;
   background-color: white;
@@ -248,15 +239,12 @@ footer{
   border-radius: 5px;
 }
 
-/* h(hr, h1, ...) tags */
-/* Line tag */
 hr{
   height: 3px;
   margin-top: 1px;
   margin-bottom: 1px;
 }
 
-/* Used for any Main Headings */
 .display{
   color: black;
   text-decoration: underline;
@@ -265,7 +253,6 @@ hr{
   margin-bottom: 1px;
 }
 
-/* Used for Secondary Headings */
 h2{
   text-align: center;
   color: black;
@@ -273,14 +260,12 @@ h2{
   font-size: xx-large;
 }
 
-/* Used for Text Box Headings */
 h3{
   color: black;
   text-decoration: underline;
   font-size: x-large;
 }
 
-/* Recent Donation Heading */
 h4{
   text-align: center;
   color: black;
@@ -288,14 +273,12 @@ h4{
   font-size: x-large;
 }
 
-/* Forum Comment Heading */
 h5{
   color: black;
   text-decoration: underline;
   margin-top: 0%;
 }
 
-/* Forum User ID Comment Heading */
 h6{
   color: black;
 }
