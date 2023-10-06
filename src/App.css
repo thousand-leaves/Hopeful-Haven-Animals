@@ -1,10 +1,284 @@
-.fa-trash,
-.fa-chevron-down {
-  color: goldenrod;
+/* Body Section */
+body{
+  background-color: rgb(196, 255, 196);
 }
 
-.fa-trash:hover,
-.fa-chevron-down:hover {
-  cursor: pointer;
-  color: red;
+/* Navbar Section */
+nav{
+  background-color: palegreen;
+  width: 100%;
+}
+
+.navbar{
+  width: 100%;
+}
+
+.navbar-brand{
+  color: black;
+}
+
+.nav-link{
+  color: black;
+}
+
+.btn{
+  color: black;
+  background-color: forestgreen;
+}
+
+.form-control2 {
+  width: 80%;
+}
+
+footer{
+  text-align: center;
+  background-color: palegreen;
+  position: fixed;
+  bottom: 0;
+  width: 67.7%;
+  margin-left: 310px;
+  margin-right: 30px;
+}
+
+.LiveNews{
+  float: left;
+  width: 36.5%;
+  background-color: lightgreen;
+  margin-top: 1%;
+  height: 770px;
+  border-style: solid;
+  border-width: 1px;
+}
+
+.RelatedNews{
+  float: left;
+  width: 36.5%;
+  background-color: lightblue;
+  margin-left: 1%;
+  margin-top: 1%;
+  height: 770px;
+  border-style: solid;
+  border-width: 1px;
+}
+
+.LNPlaceholderText{
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 10px;
+  margin-top: 1px;
+  margin-left: 1%;
+  padding-left: 10px;
+  width: 98%;
+  background-color: white;
+}
+
+.RNPlaceholderText{
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 10px;
+  margin-left: 1%;
+  padding-left: 10px;
+  width: 98%;
+  background-color: white;
+}
+
+.Reports{
+  float: left;
+  width: 73%;
+  margin-top: 1%;
+  border-style: solid;
+  border-color: black;
+  border-width: 1px;
+  border-radius: 5px;
+  background-color: white;
+}
+
+.ReportText{
+  margin-top: 2px;
+  background-color: white;
+  color: black;
+  border-style: solid;
+  border-color: black;
+  border-width: 1px;
+  border-radius: 5px;
+  width: 98%;
+  margin-left: 1%;
+  padding-left: 10px;
+}
+
+.DonateForm{
+  float: left;
+  width: 73%;
+}
+
+.DonateInfo{
+  float: left;
+  margin-top: 1%;
+  width: 73%;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 10px;
+  background-color: white;
+}
+
+.DonateInfoPara{
+  background-color: white;
+  width: 98%;
+  margin-top: 1%;
+  margin-left: 1%;
+}
+
+.ReturnHome{
+  float:left;
+  margin-top: 1%;
+}
+
+.Forum{
+  float: left;
+  width: 36.5%;
+  background-color: white;
+  margin-top: 1%;
+  height: 770px;
+  border-style: solid;
+  border-color: black;
+  border-width: 1px;
+  border-radius: 5px;
+}
+
+.VisitedForums{
+  float: left;
+  width: 36.5%;
+  background-color: lightblue;
+  margin-left: 1%;
+  margin-top: 1%;
+  height: 770px;
+}
+
+.FoPlaceholderText{
+  margin-top: 10px;
+  background-color: white;
+  color: black;
+  width: 98%;
+  margin-left: 1%;
+  border-style: solid;
+  border-color: black;
+  border-width: 1px;
+  border-radius: 5px;
+  padding-left: 10px;
+}
+
+.FrFoPlaceholderText{
+  margin-top: 10px;
+  margin-bottom: 5px;
+  background-color: white;
+  color: black;
+  width: 98%;
+  margin-left: 1%;
+  border-style: solid;
+  border-color: black;
+  border-width: 1px;
+  border-radius: 5px;
+  padding-left: 10px;
+}
+
+.ForumHeader{
+  font-size: x-large;
+}
+
+.FaqForum{
+  float: left;
+  width: 73%;
+  background-color: white;
+  margin-top: 1%;
+  height: 770px;
+  border-style: solid;
+  border-color: black;
+  border-width: 1px;
+  border-radius: 5px;
+}
+
+.Donations{
+  float: right;
+  width: 25%;
+  background-color: white;
+  margin-top: 1%;
+  height: 770px;
+}
+
+.DonationText{
+  margin-top: 2px;
+  margin-left: 1%;
+  background-color: white;
+  color: black;
+  width: 98%;
+  padding-left: 10px;
+}
+
+.nav-link2{
+  margin-top: 25px;
+  font-size: xx-large;
+  text-align: center;
+  color: black;
+  text-decoration: underline;
+  background-color: white;
+  border-style: solid;
+  border-color: black;
+  border-width: 1px;
+  border-radius: 5px;
+  margin-left: 330px;
+  width: 35%;
+}
+
+.text-secondary{
+  margin-top: 2px;
+  background-color: white;
+  color: black;
+  border-style: solid;
+  border-color: black;
+  border-width: 1px;
+  border-radius: 5px;
+}
+
+hr{
+  height: 3px;
+  margin-top: 1px;
+  margin-bottom: 1px;
+}
+
+.display{
+  color: black;
+  text-decoration: underline;
+  font-size: xx-large;
+  margin-left: 1%;
+  margin-bottom: 1px;
+}
+
+h2{
+  text-align: center;
+  color: black;
+  text-decoration: underline;
+  font-size: xx-large;
+}
+
+h3{
+  color: black;
+  text-decoration: underline;
+  font-size: x-large;
+}
+
+h4{
+  text-align: center;
+  color: black;
+  text-decoration: underline;
+  font-size: x-large;
+}
+
+h5{
+  color: black;
+  text-decoration: underline;
+  margin-top: 0%;
+}
+
+h6{
+  color: black;
 }
